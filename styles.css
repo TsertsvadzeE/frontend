@@ -9,13 +9,13 @@
 }
 
 .menu{
-    margin: auto;
     display: flex;
 }
 
 .menu li{
     list-style: none;
     padding: 30px 92px;
+    margin: auto;
     font-size: x-large;
     font-family: Bebas Neue;
 }

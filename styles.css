@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Holtwood+One+SC&family=Indie+Flower&family=Inter:wght@700&family=Poor+Story&family=Quicksand:wght@300;500;700&family=Roboto+Condensed&family=Roboto+Mono:wght@100&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Holtwood+One+SC&family=Indie+Flower&family=Inter:wght@700&family=Lobster&family=Poor+Story&family=Quicksand:wght@300;500;700&family=Roboto+Condensed&family=Roboto+Mono:wght@100&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Holtwood+One+SC&family=Indie+Flower&family=Inter:wght@700&family=Lobster&family=Poor+Story&family=Quicksand:wght@300;500;700&family=Roboto+Condensed&family=Roboto+Mono:wght@100&family=Zen+Antique+Soft&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    padding: 30px 92px;
+    font-size: x-large;
+    font-family: Bebas Neue;
+}
+
+.menu li a{
+    color: black;
+    transition: 1s;
+}
+
+.menu li a:link{
+    text-decoration:none;
+}
+
+.menu li a:hover{
+    background-color: black;
+    color:white
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.card{
+    width: 30%;
+    margin-bottom: 40px;
+    box-shadow: -1px 9px 20px 1px rgba(0,0,0,0.67);
+    -webkit-box-shadow: -1px 9px 20px 1px rgba(0,0,0,0.67);
+    -moz-box-shadow: -1px 9px 20px 1px rgba(0,0,0,0.67);
+    border-radius: 7px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.card:hover{
+    background-color: rgba(236, 232, 232, 0.534);
+    color: brown;
+    transform:scale(1.03);
+}
+
+figure{
+    height: 300px;
+}
+
+figure img{
+    height: 100%;
+    width: 100%; 
+    object-fit:cover;
+}
+
+.card h3{
+    text-align: center;
+    margin: 10px 0;
+    font-family: Lobster;
+    text-transform: uppercase;
+}
+
+.card p{
+    text-align: center;
+    margin: 20px 0;
+    font-family: Dancing Script;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .menu{
+        display: none;
+    }
+}

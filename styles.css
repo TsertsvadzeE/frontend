@@ -9,6 +9,7 @@
 }
 
 .menu{
+    margin: auto;
     display: flex;
 }
 
